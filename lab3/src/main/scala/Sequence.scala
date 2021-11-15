@@ -17,7 +17,6 @@ object Sequence {
   /* a) Найдите последний элемент Seq.
    *    
    */
-//  def testLastElement[A](seq: Seq[A]): Option[A] = Some(seq.drop(seq.length -1).head)
   def testLastElement[A](seq: Seq[A]): Option[A] = seq.lastOption
   /* b) Объедините две Seqs (то есть Seq(1, 2) и Seq(3, 4) образуют Seq((1, 3), (2, 4))) - если Seq длиннее игнорируйте оставшиеся элементы.
    *    
